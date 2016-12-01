@@ -1,0 +1,26 @@
+cmake_minimum_required(VERSION 2.8)
+
+set(CMAKE_AUTOMOC ON)
+
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+
+set(libs)
+
+add_executable(${app} 
+	FIE.cc
+	FIE.h
+	flie.cc
+	flie.h
+	fuzzfier.cc
+	fuzzfier.h
+	fuzzy_control.cc
+	fuzzy_control.h
+	fuzzy_obstacle.cc
+	fuzzy_obstacle.h
+	lingvar.cc
+	lingvar.h
+	motor.cc
+	motor.h
+	rule.cc
+	rule.h	
+)
