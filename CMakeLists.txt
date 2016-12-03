@@ -28,18 +28,18 @@ include_directories(${PROTOBUF_INCLUDE_DIRS})
 list(APPEND libs ${PROTOBUF_LIBRARIES})
 
 protobuf_generate_cpp(PROTO_CPP PROTO_H
-    ../grSim-master/src/proto/grSim_Replacement.proto
-    ../grSim-master/src/proto/grSim_Commands.proto
-    ../grSim-master/src/proto/grSim_Packet.proto
-    ../grSim-master/src/proto/messages_robocup_ssl_detection.proto
-    ../grSim-master/src/proto/messages_robocup_ssl_geometry.proto
-    ../grSim-master/src/proto/messages_robocup_ssl_wrapper.proto
-    ../grSim-master/src/proto/messages_robocup_ssl_refbox_log.proto
-    ../grSim-master/src/proto/grSim_Replacement.proto
-    ../grSim-master/src/proto/grSim_Commands.proto
-    ../grSim-master/src/proto/grSim_Packet.proto
-    ../ssl-refbox-master/referee.proto
-    ../ssl-refbox-master/savestate.proto
+    ../grSim/src/proto/grSim_Replacement.proto
+    ../grSim/src/proto/grSim_Commands.proto
+    ../grSim/src/proto/grSim_Packet.proto
+    ../grSim/src/proto/messages_robocup_ssl_detection.proto
+    ../grSim/src/proto/messages_robocup_ssl_geometry.proto
+    ../grSim/src/proto/messages_robocup_ssl_wrapper.proto
+    ../grSim/src/proto/messages_robocup_ssl_refbox_log.proto
+    ../grSim/src/proto/grSim_Replacement.proto
+    ../grSim/src/proto/grSim_Commands.proto
+    ../grSim/src/proto/grSim_Packet.proto
+    ../ssl-refbox/referee.proto
+    ../ssl-refbox/savestate.proto
 )
 
 
